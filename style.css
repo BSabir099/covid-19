@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    
+  
+    
+    .logo a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+
+    .navs ul{
+        display: flex;
+        gap: 50px;
+
+      >li>a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+      }
+      >li>a:hover{
+        color: orange;
+      }
+    
+    }
+    
+}
+
+
+main{
+    
+    .nese{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .search{
+            padding-right: 200px;
+
+            input{
+                width:400px;
+                border-radius: 5px;
+                outline: none;
+                padding: 5px;
+                padding-inline: 10px;
+            }
+            button{
+                border-radius: 5px;
+                padding: 5px;
+                padding-inline: 10px;
+            }
+        }
+
+    }
+    .logo_world{
+        img{
+            height: 200px;
+        }
+        span{
+            font-size: 30px;
+            font-style:italic;
+            font-weight: bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        padding-left: 50px;
+
+     
+    }
+}
+main .main_img{
+   background-image: url("https://media.defense.gov/2020/Mar/09/2003062075/1200/1200/0/200309-D-HN545-003.JPG");
+   height: 500px;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   background-position: center;
+   background-color: rgb(22, 22, 22);
+   margin-bottom: 50px;
+
+}
+.card-body{
+    span{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+    }
+}
+.card-text1{
+    color:rgb(0, 106, 177);
+}
+.card-text2{
+    color: orange;
+}
+.card-text3{
+    color:red;
+}
